@@ -15,7 +15,7 @@ In today's highly competitive market, launching a new product can be a challengi
 
 ## Dataset
 
-There are 8 datasets related to the credit card transaction, which describes 
+There are 3 datasets related to the credit card transaction, which describes 
 
 BusinessCase_Custs.csv: Customer information including gender, birth date, work activity, occupation industry, income, relationship status, habitation status, address and school.
 
@@ -23,7 +23,8 @@ BusinessCase_Accts.csv: Customer account information for who open the account on
 
 BusinessCase_Tx.csv: Transaction records between 2018-01-01 and 2018-12-31, inclduing transaction description, currency amount, location (all null), origination date and time, customer id, merchant id, account id and category tages (transaction category).
 
-Dim_Customer.csv: Customer information including gender, birth date, age group, work activity, total income, relationship status, habitation status, emoloyment industry id and emoloyment industry name.
+
+(Dim_Customer.csv: Customer information including gender, birth date, age group, work activity, total income, relationship status, habitation status, emoloyment industry id and emoloyment industry name.
 
 Dim_account.csv: Customer account information for who open the account on 2018-03-01, dataset including their branch number, open date, account id, open balance, and customer id.
 
@@ -31,8 +32,25 @@ Fct_Txn_Acct.csv: Spend records between 2018-01-01 and 2018-12-31, inclduing tra
 
 Rl_Cust_Seg.csv
 
-Fct_Txn_Cust.csv: Spend records between 2018-01-01 and 2018-12-31, inclduing transaction date, customer id, merchant id, category tags, transaction description, spend amount, year quarter, last quarter and ll quarter.
+Fct_Txn_Cust.csv: Spend records between 2018-01-01 and 2018-12-31, inclduing transaction date, customer id, merchant id, category tags, transaction description, spend amount, year quarter, last quarter and ll quarter.)
+
+## Data Cleaning
+
+## Exploratory Data Analysis (EDA)
+
+### Task 1
 
 
+
+### Thoughts
+#### Task 1
+1. check the total amount and count of each category (checked)
+2. see the number of categories for each customer, want to eliminate the propability that same person made huge number of same type transaction
+3. see the time change (count) for different category, the merchant we want to focus should have stable transaction amount in each month.
+4. decide the key metrics: total value/total amount
+5. avarage value/amount per customer for each category
+6. questions:
+  1) the most important thing that bank values (total value?)
+  2) is transfer counted as a merchant category for bank
 
 
