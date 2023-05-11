@@ -36,9 +36,34 @@ Fct_Txn_Cust.csv: Spend records between 2018-01-01 and 2018-12-31, inclduing tra
 
 ## Data Cleaning
 
+For the new product that we planning to launch, I mainly used the BusinessCase_Tx.csv, which is the transaction dataset for transactions in 2018. 
+
+1) Data Selection
+Since we want to focus on a specific merchant category, we only use the transactions with merchant id.
+
 ## Exploratory Data Analysis (EDA)
 
-### Task 1
+### New product development
+
+1) The overview of the number of transactions for different categories.
+
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/bd561d0a-fdfa-4a2c-81aa-68717dc29364)
+
+We can see that the majority of the transactions are placed for Transfer, Income, Bills and Utilities and Food and Dining from the graph shows above.
+
+2) The overview of the amount of transactions for different categories.
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/f0f0a84d-aa3b-4bc6-8a52-4a4539ff6c6f)
+
+Based on the total value of transactions for different categories, Income, Transfer, Taxes, Mortgage and Rent, and Bills and Utilities took the leading places in 2018.
+
+3）The total transaction amount and value for transactions with merchant id
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/9f47e715-464c-4a7b-bf12-7866b7e5e94c)
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/38d5ef18-d524-4558-ad1b-bc68c5b6351f)
+
+After extracting the transactions that spent on merchants, we can see that Transfer, Taxes, and Bills and Utilities have the highest transaction values respectively, while Bills and Utilities, Food and Dining and Transfer are the categories with highest transaction amount.
+
+
+
 
 
 
@@ -52,5 +77,6 @@ Fct_Txn_Cust.csv: Spend records between 2018-01-01 and 2018-12-31, inclduing tra
 6. questions:
   1) the most important thing that bank values (total value?)
   2) is transfer counted as a merchant category for bank
+  3) how to differicate the specific usage for transfer
 
 
