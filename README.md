@@ -70,6 +70,12 @@ Based on the graphs above, it is evident that certain merchant categories, such 
 
 By eliminating these categories, we can focus on other merchant categories that may represent a profitable opportunity for the bank. By leveraging transaction data, we can identify these categories and create a product that is tailored to meet the needs and preferences of our target market, while also providing a profitable opportunity for the bank.
 
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/0e6b81fb-d307-4233-9583-8f66c9fb8b7d)
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/1d49abcc-4af1-4865-9bcb-83ab74093412)
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/3112ce6d-35f1-4c3c-9213-6a5e0ed3546a)
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/bdd651c5-a2ed-4483-a003-52189bf0d31e)
+
+
 
 
 ### Thoughts
