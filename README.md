@@ -34,16 +34,15 @@ Rl_Cust_Seg.csv
 
 Fct_Txn_Cust.csv: Spend records between 2018-01-01 and 2018-12-31, inclduing transaction date, customer id, merchant id, category tags, transaction description, spend amount, year quarter, last quarter and ll quarter.)
 
-## Data Cleaning
-
-For the new product that we planning to launch, I mainly used the BusinessCase_Tx.csv, which is the transaction dataset for transactions in 2018. 
-
-1) Data Selection
-Since we want to focus on a specific merchant category, we only use the transactions with merchant id.
-
 ## Exploratory Data Analysis (EDA)
 
-### New product development
+## New product development
+
+To successfully launch a new product focused on a specific merchant category for a bank, it is important to carefully consider the type of card that will be offered. Between credit cards and debit cards, credit cards are generally preferred for merchant category-specific products due to the additional benefits and protections they offer, such as purchase protection, extended warranties, and rewards programs. Credit cards also provide consumers with the option to finance their purchases over time, which can be beneficial for more expensive items.
+
+When launching a credit card product, there are four ways in which credit card companies can make a profit: interest on balances, fees, interchange fees from merchants, and rewards programs that incentivize people to use the card more often. These profit avenues will be kept in mind as we explore our transaction data to determine the specific merchant category for the new product.
+
+In order to gain insight into the market and determine the specific merchant category for the new product, we analyzed transaction data from the BusinessCase_Tx.csv dataset, which contains transactions from March 2018 to Octomber 2018. To focus on the merchant category, we filtered the dataset to only include transactions with merchant IDs.
 
 1) The overview of the number of transactions for different categories.
 
@@ -62,8 +61,14 @@ Based on the total value of transactions for different categories, Income, Trans
 
 After extracting the transactions that spent on merchants, we can see that Transfer, Taxes, and Bills and Utilities have the highest transaction values respectively, while Bills and Utilities, Food and Dining and Transfer are the categories with highest transaction amount.
 
+4) The transaction amount for different transaction category tags with for merchants in every month
 
+The transactions in March do not have merchant id, so the graphs below will not include the transactions in March.
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/1cd62e4e-543f-42ba-8905-678daef08eaf)
 
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/c3fabf5b-3a95-4162-99e7-027a90421c56)
+
+Based on the above graphs, we can see that Transfer, Taxes, Bills and Utilities and Food and Dining are 4 categories with the most transaction amount. It is resonable becasue these transactions are compulsory for people to making a living. Everyone has to use pay bills, taxes, make transfer and get food in their daily life.
 
 
 
