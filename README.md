@@ -34,8 +34,6 @@ Rl_Cust_Seg.csv
 
 Fct_Txn_Cust.csv: Spend records between 2018-01-01 and 2018-12-31, inclduing transaction date, customer id, merchant id, category tags, transaction description, spend amount, year quarter, last quarter and ll quarter.)
 
-## Exploratory Data Analysis (EDA)
-
 ## New product development
 
 To successfully launch a new product focused on a specific merchant category for a bank, it is important to carefully consider the type of card that will be offered. Between credit cards and debit cards, credit cards are generally preferred for merchant category-specific products due to the additional benefits and protections they offer, such as purchase protection, extended warranties, and rewards programs. Credit cards also provide consumers with the option to finance their purchases over time, which can be beneficial for more expensive items.
@@ -68,7 +66,9 @@ The transactions in March do not have merchant id, so the graphs below will not 
 
 ![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/c3fabf5b-3a95-4162-99e7-027a90421c56)
 
-Based on the above graphs, we can see that Transfer, Taxes, Bills and Utilities and Food and Dining are 4 categories with the most transaction amount. It is resonable becasue these transactions are compulsory for people to making a living. Everyone has to use pay bills, taxes, make transfer and get food in their daily life.
+Based on the graphs above, it is evident that certain merchant categories, such as Transfer, Taxes, Bills and Utilities, and Food and Dining, have the highest transaction amounts in almost every month. This observation is not surprising, as these transactions are necessary for daily living and are therefore frequently made by consumers. However, these categories may not be suitable for the new product, as they will not encourage customers to use the card more often. Instead, we need to focus on other merchant categories that present a potential opportunity for the bank to offer a new product. Additionally, we noted that the 'Fees and Charges' category has 0 value. Therefore, this category will also not be considered for the new product.
+
+By eliminating these categories, we can focus on other merchant categories that may represent a profitable opportunity for the bank. By leveraging transaction data, we can identify these categories and create a product that is tailored to meet the needs and preferences of our target market, while also providing a profitable opportunity for the bank.
 
 
 
