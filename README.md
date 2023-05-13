@@ -17,12 +17,6 @@ In today's highly competitive market, launching a new product can be a challengi
 
 There are 3 datasets related to the credit card transaction, which describes 
 
-BusinessCase_Custs.csv: Customer information including gender, birth date, work activity, occupation industry, income, relationship status, habitation status, address and school.
-
-BusinessCase_Accts.csv: Customer account information for who open the account on 2018-03-01, dataset including their branch number, account type, open date, account id, balance, currency, and customer id.
-
-BusinessCase_Tx.csv: Transaction records between 2018-01-01 and 2018-12-31, inclduing transaction description, currency amount, location (all null), origination date and time, customer id, merchant id, account id and category tages (transaction category).
-
 BusinessCase_Custs.csv: This dataset contains information about the customers, including their gender, birth date, work activity, occupation industry, income, relationship status, habitation status, address, and school. This dataset can be used to identify different customer segments based on their demographics and lifestyle.
 
 BusinessCase_Accts.csv: This dataset provides information about the customer's account, including their branch number, account type, open date, account id, balance, currency, and customer id. This dataset can be used to understand the customer's financial behavior and transaction patterns.
