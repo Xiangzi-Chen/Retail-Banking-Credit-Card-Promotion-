@@ -23,6 +23,12 @@ BusinessCase_Accts.csv: Customer account information for who open the account on
 
 BusinessCase_Tx.csv: Transaction records between 2018-01-01 and 2018-12-31, inclduing transaction description, currency amount, location (all null), origination date and time, customer id, merchant id, account id and category tages (transaction category).
 
+BusinessCase_Custs.csv: This dataset contains information about the customers, including their gender, birth date, work activity, occupation industry, income, relationship status, habitation status, address, and school. This dataset can be used to identify different customer segments based on their demographics and lifestyle.
+
+BusinessCase_Accts.csv: This dataset provides information about the customer's account, including their branch number, account type, open date, account id, balance, currency, and customer id. This dataset can be used to understand the customer's financial behavior and transaction patterns.
+
+BusinessCase_Tx.csv: This dataset contains transaction records between 2018-01-01 and 2018-12-31, including transaction description, currency amount, location (all null), origination date and time, customer id, merchant id, account id, and category tags (transaction category). This dataset can be used to identify the merchant category that the new product should target and also to understand the transaction patterns of different customer segments.
+
 
 (Dim_Customer.csv: Customer information including gender, birth date, age group, work activity, total income, relationship status, habitation status, emoloyment industry id and emoloyment industry name.
 
