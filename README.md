@@ -88,11 +88,11 @@ Based on the rank for the total transaction value for each category on each mont
 
 Moreover, we investigated the average value per transaction for each category and found that travel has the highest average value per transaction except the category 'Loan'. As one of the main ways for credit card companies to make a profit is through the interchange fee per transaction charged from the merchant, we can see that travel is not only a category that can boost customer consumption but also a profitable category for the bank.
 
-![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/690f8fd0-f90d-4afc-8a31-b0ff744f61b7)
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/f39aab65-983f-4135-9fc0-e52d451c20ff)
 
 Furthermore, the fact that only 85 existing customers have used the travel product for the bank suggests that there is a large untapped market for promoting travel credit cards. By understanding the needs and preferences of potential customers in this category and offering tailored benefits and rewards, we can attract new customers and drive revenue growth for the bank.
 
-![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/f39aab65-983f-4135-9fc0-e52d451c20ff)
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/817a6ed9-b178-4dc4-8800-d24dbb5f211c)
 
 In conclusion, our analysis of the transaction data allowed us to narrow down our focus to the most profitable merchant categories. By eliminating certain transaction categories and considering the total transaction value and average value per transaction, we have identified the travel category as a promising strategy for the new product. This category shows potential for increasing customer consumption and generating substantial profits through interchange fees charged to merchants. By targeting the travel category, we can align our product offering with customer preferences while maximizing profitability for the bank.
 
