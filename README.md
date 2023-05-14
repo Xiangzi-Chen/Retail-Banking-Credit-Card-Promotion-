@@ -54,14 +54,14 @@ I will begin by providing an overview of the transactions across different categ
 
 ![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/63ad0744-89d9-4b8e-a8a7-0f0955677dc6)
 
-The graph above reveals that the majority of transactions are allocated to categories such as Transfer, Income, Bills and Utilities, and Food and Dining.
+The graph above reveals that the majority of transactions are allocated to categories such as Transfer, Income, Bills and Utilities, and Food and Dining. This observation is in line with expectations, as these categories represent essential and recurring transactions in customers' daily lives.
 
 The overview of the transactions amount for different categories.
 ![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/1a9597fe-f398-46d5-88ac-59dd4ff484cb)
 
-Based on the graph, we can see that the leading categories based on the total value of transactions were Income, Transfer, Taxes, Mortgage and Rent, and Bills and Utilities
+The graph above provides an overview of the transaction amounts for different categories. From the graph, we can observe that the leading categories in terms of the total value of transactions are Income, Transfer, Taxes, Mortgage and Rent, and Bills and Utilities. These categories play a significant role in customers' financial activities and daily expenses.
 
-The two observationd aligns with expectations, as these categories represent essential and recurring transactions in customers' daily lives.
+To delve deeper into the transaction data, we will now investigate the frequency of transactions for each transaction category tag in every month.
 
 2) The transaction frequency for different transaction category tags in every month
 
@@ -77,13 +77,12 @@ Based on the analysis of the transaction data, it is evident that certain mercha
 
 To focus on merchant categories that present potential opportunities for the bank's new product, I have eliminated these commonly observed categories from consideration.
 
-To gain further insights, we have generated graphs showcasing the ranking of total transaction values for each remaining category on a monthly basis to identify the discernible trends or patterns in consumer spending behavior for specific merchant categories over time. 
+Then, I have generated graphs showcasing the ranking of total transaction values for each remaining category on a monthly basis to identify the discernible trends or patterns in consumer spending behavior for specific merchant categories over time.
 
 ![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/a77613c2-68cc-43ae-abf0-3fc006652efa)
 ![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/af0e8cfb-94ab-4845-8997-045f9ffa7d74)
 ![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/bc4d5377-6f60-42e5-8a80-fdec20132144)
 ![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/c1446bbe-8bed-4b38-85a6-04e48ff576d9)
-
 
 Based on the rank for the total transaction value for each category on each month, we can see that loan and travel take the leading places. Transaction with category 'Loan' is the category we set for payday loan. While credit card companies have the flexibility to launch products targeting various segments, focusing on payday loans may pose challenges and ethical considerations. Payday loans are often associated with high-interest rates and are primarily utilized by individuals facing financial difficulties or limited access to traditional banking services. It is also typically intended for short-term borrowing needs, which may not align with the typical payment structure of credit cards. This leading us to focus on another category, Travel. For most of the months, the total value of transactions on travel takes the top position in all of the merchant categories. This suggests that travel may be the category to focus on for the new product.
 
