@@ -83,7 +83,7 @@ To focus on merchant categories that present potential opportunities for the ban
 
 To gain further insights, we have generated graphs showcasing the ranking of total transaction values for each remaining category on a monthly basis to identify the discernible trends or patterns in consumer spending behavior for specific merchant categories over time. 
 
-![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/d1f6e649-831b-4b9b-ad24-96913f00a0fe)
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/a77613c2-68cc-43ae-abf0-3fc006652efa)
 ![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/af0e8cfb-94ab-4845-8997-045f9ffa7d74)
 ![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/bc4d5377-6f60-42e5-8a80-fdec20132144)
 ![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/c1446bbe-8bed-4b38-85a6-04e48ff576d9)
@@ -97,9 +97,7 @@ Moreover, we investigated the average value per transaction for each category an
 
 Furthermore, the fact that only 85 existing customers have used the travel product for the bank suggests that there is a large untapped market for promoting travel credit cards. By understanding the needs and preferences of potential customers in this category and offering tailored benefits and rewards, we can attract new customers and drive revenue growth for the bank.
 
-![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/bdd651c5-a2ed-4483-a003-52189bf0d31e)
-
-Overall, based on our analysis of the transaction data, we eliminated the transaction category so that we could focus more on the transactions with more profitable merchant categories. Also, based on the total transaction value and average value per transaction, we believe that targeting the travel category for the new product is a promising strategy. It has the potential to not only increase customer consumption but also generate significant profit for the bank through interchange fees charged to merchants.
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/f39aab65-983f-4135-9fc0-e52d451c20ff)
 
 In conclusion, our analysis of the transaction data allowed us to narrow down our focus to the most profitable merchant categories. By eliminating certain transaction categories and considering the total transaction value and average value per transaction, we have identified the travel category as a promising strategy for the new product. This category shows potential for increasing customer consumption and generating substantial profits through interchange fees charged to merchants. By targeting the travel category, we can align our product offering with customer preferences while maximizing profitability for the bank.
 
