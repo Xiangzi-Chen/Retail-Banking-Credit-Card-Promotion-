@@ -8,10 +8,10 @@ In today's highly competitive market, launching a new product can be a challengi
 
 ## Project Overview
 
-* Develop a new product focused on a specific merchant category.
-* Identify and describe various segments of customers within the data using segmenting/clustering techniques.
-* Determine which specific segment to target for the new product and explain the rationale for the choice.
-* Consider potential challenges and risks associated with targeting the chosen segment compared to other segments.
+* Develop a new product focused on a specific merchant category. (Task 1)
+* Identify and describe various segments of customers within the data using segmenting/clustering techniques. (Task 2)
+* Determine which specific segment to target for the new product and explain the rationale for the choice. (Task 3)
+* Consider potential challenges and risks associated with targeting the chosen segment compared to other segments. (Task 4)
 
 ## Dataset
 
@@ -36,58 +36,72 @@ Fct_Txn_Cust.csv: Spend records between 2018-01-01 and 2018-12-31, inclduing tra
 
 ## New product development
 
+### Data Cleaning
+
+To gain insights into the market and determine the specific merchant category for the new product, we analyzed transaction data from the BusinessCase_Tx.csv dataset, which contains transactions from March 2018 to October 2018. However, I observed that the merchantId column had missing data, with approximately 53.1% of values missing, and CategoryTags had around 0.16% missing values. Since the primary objective was to identify the specific merchant category for the bank's new product, we recognized that the category tags could be a crucial factor in our investigation. Therefore, I examined the transactions with missing category tags and discovered that they were all related to paying payday loans, which is a short-term, high-interest loan typically provided by non-bank financial institutions or lenders. As a result, I assigned the merchant category for these transactions with the tag 'Loan'.
+
+### Data exploration and analysis
+
 To successfully launch a new product focused on a specific merchant category for a bank, it is important to carefully consider the type of card that will be offered. Between credit cards and debit cards, credit cards are generally preferred for merchant category-specific products due to the additional benefits and protections they offer, such as purchase protection, extended warranties, and rewards programs. Credit cards also provide consumers with the option to finance their purchases over time, which can be beneficial for more expensive items.
 
 When launching a credit card product, there are four ways in which credit card companies can make a profit: interest on balances, fees, interchange fees from merchants, and rewards programs that incentivize people to use the card more often. These profit avenues will be kept in mind as we explore our transaction data to determine the specific merchant category for the new product.
 
-In order to gain insight into the market and determine the specific merchant category for the new product, we analyzed transaction data from the BusinessCase_Tx.csv dataset, which contains transactions from March 2018 to Octomber 2018. To focus on the merchant category, we filtered the dataset to only include transactions with merchant IDs.
+After deciding the type of card we plan to launch and identifying the way for credit card companies to make a profit, I will provide some insights derived from the transaction data and try to find some trends and patterns to identify the merchant category for the new credit card.
+
+With an understanding of the card type and profit avenues, I will use data analytics to gain insights and identify the specific merchant category for the new credit card product. By analyzing the transaction data from the BusinessCase_Tx.csv dataset, we will explore the transaction data to determine the most popular merchant categories, the average transaction amounts, and the frequency of transactions for each category. These insights will help us make informed decisions about the specific merchant category to target with the new product.
+
+To gain a comprehensive understanding of the transaction data and establish a foundation for analysis, we will begin by providing an overview of the transactions across different categories. This overview will enable us to grasp the distribution and magnitude of transactions in each category, allowing us to identify any notable trends or patterns. By examining the transaction data holistically, we can gather valuable insights that will guide our subsequent analysis and decision-making processes. Also, to gain insights and identify the optimal merchant category, we will conduct a thorough analysis of the transaction data. Our examination will focus on determining the most popular merchant categories, analyzing average transaction amounts, and assessing the frequency of transactions for each category. These insights will serve as a foundation for making informed decisions regarding the specific merchant category to target with the new product.
+
+I will begin by providing an overview of the transactions across different categories, which will allow us to gain valuable insights into the distribution and magnitude of transactions in each category.
 
 1) The overview of the number of transactions for different categories.
 
-![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/bd561d0a-fdfa-4a2c-81aa-68717dc29364)
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/63ad0744-89d9-4b8e-a8a7-0f0955677dc6)
 
-We can see that the majority of the transactions are placed for Transfer, Income, Bills and Utilities and Food and Dining from the graph shows above.
+The graph above reveals that the majority of transactions are allocated to categories such as Transfer, Income, Bills and Utilities, and Food and Dining.
 
-2) The overview of the amount of transactions for different categories.
-![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/f0f0a84d-aa3b-4bc6-8a52-4a4539ff6c6f)
+The overview of the transactions amount for different categories.
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/1a9597fe-f398-46d5-88ac-59dd4ff484cb)
 
-Based on the total value of transactions for different categories, Income, Transfer, Taxes, Mortgage and Rent, and Bills and Utilities took the leading places in 2018.
+Based on the graph, we can see that the leading categories based on the total value of transactions were Income, Transfer, Taxes, Mortgage and Rent, and Bills and Utilities
 
-3）The total transaction amount and value for transactions with merchant id
-![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/9f47e715-464c-4a7b-bf12-7866b7e5e94c)
-![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/38d5ef18-d524-4558-ad1b-bc68c5b6351f)
+The two observationd aligns with expectations, as these categories represent essential and recurring transactions in customers' daily lives.
 
-After extracting the transactions that spent on merchants, we can see that Transfer, Taxes, and Bills and Utilities have the highest transaction values respectively, while Bills and Utilities, Food and Dining and Transfer are the categories with highest transaction amount.
+2) The transaction frequency for different transaction category tags in every month
 
-4) The transaction amount for different transaction category tags with for merchants in every month
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/78a3b510-4f82-4db6-9d99-5312441ea1e8)
 
-The transactions in March do not have merchant id, so the graphs below will not include the transactions in March.
-![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/1cd62e4e-543f-42ba-8905-678daef08eaf)
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/81a44f75-20bf-4cc7-b2ed-2be8e2de41be)
 
-![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/c3fabf5b-3a95-4162-99e7-027a90421c56)
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/83e2a85d-4084-4ca8-ab96-881839dc54c1)
 
-Based on the graphs above, it is evident that certain merchant categories, such as Transfer, Taxes, Bills and Utilities, and Food and Dining, have the highest transaction amounts in almost every month. This observation is not surprising, as these transactions are necessary for daily living and are therefore frequently made by consumers. However, these categories may not be suitable for the new product, as they will not encourage customers to use the card more often. Instead, we need to focus on other merchant categories that present a potential opportunity for the bank to offer a new product. Additionally, we noted that the 'Fees and Charges' category has 0 value. Therefore, this category will also not be considered for the new product.
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/1258332f-f4f2-4c6b-99bc-8d94a227e927)
 
-By eliminating these categories, we can focus on other merchant categories that may represent a profitable opportunity for the bank. By leveraging transaction data, we can identify these categories and create a product that is tailored to meet the needs and preferences of our target market, while also providing a profitable opportunity for the bank.
+Based on the analysis of the transaction data, it is evident that certain merchant categories, such as Transfer, Taxes, Bills and Utilities, and Food and Dining, consistently exhibit high transaction amounts across almost every month. This finding is expected, as these categories encompass essential and recurring transactions in consumers' daily lives. However, while these categories have high transaction volumes, they may not be suitable for the new product as they do not encourage customers to use the credit card more frequently. This could limit the potential profitability for the credit card company. As a result, our focus should shift towards other merchant categories that offer greater potential for the bank to introduce a new product. Also, for category 'Mortgage and Rent', although it represents a significant expense for many individuals, it may not serve as an ideal focus for the new product, given the nature of these transactions and the limited scope for encouraging increased card usage.
 
-After removing the previously mentioned merchant categories, we can obtain a ranking of the total transaction value for each remaining category on a monthly basis. The graphs displaying this information are presented below. By examining these graphs, we can identify any trends or patterns in consumer spending behavior for specific merchant categories over time.
+To focus on merchant categories that present potential opportunities for the bank's new product, I have eliminated these commonly observed categories from consideration.
 
-![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/0e6b81fb-d307-4233-9583-8f66c9fb8b7d)
-![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/1d49abcc-4af1-4865-9bcb-83ab74093412)
+To gain further insights, we have generated graphs showcasing the ranking of total transaction values for each remaining category on a monthly basis to identify the discernible trends or patterns in consumer spending behavior for specific merchant categories over time. 
 
-Based on the rank for the total transaction value for each category on each month, we can see that travel takes the leading place for four out of seven months. Even in the months where travel is not the top category, it consistently appears in the top three categories based on total transaction value. This suggests that travel may be the category to focus on for the new product.
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/d1f6e649-831b-4b9b-ad24-96913f00a0fe)
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/af0e8cfb-94ab-4845-8997-045f9ffa7d74)
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/bc4d5377-6f60-42e5-8a80-fdec20132144)
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/c1446bbe-8bed-4b38-85a6-04e48ff576d9)
 
-Moreover, we investigated the average value per transaction for each category and found that travel has the highest average value per transaction. As one of the main ways for credit card companies to make a profit is through the interchange fee per transaction charged from the merchant, we can see that travel is not only a category that can boost customer consumption but also a profitable category for the bank.
-![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/3112ce6d-35f1-4c3c-9213-6a5e0ed3546a)
 
-Based on our analysis of the transaction data, we believe that targeting the travel category for the new product is a promising strategy. With travel being one of the top categories in terms of total transaction value and average value per transaction, it has the potential to not only increase customer consumption but also generate significant profit for the bank through interchange fees charged to merchants.
+Based on the rank for the total transaction value for each category on each month, we can see that loan and travel take the leading places. Transaction with category 'Loan' is the category we set for payday loan. While credit card companies have the flexibility to launch products targeting various segments, focusing on payday loans may pose challenges and ethical considerations. Payday loans are often associated with high-interest rates and are primarily utilized by individuals facing financial difficulties or limited access to traditional banking services. It is also typically intended for short-term borrowing needs, which may not align with the typical payment structure of credit cards. This leading us to focus on another category, Travel. For most of the months, the total value of transactions on travel takes the top position in all of the merchant categories. This suggests that travel may be the category to focus on for the new product.
+
+Moreover, we investigated the average value per transaction for each category and found that travel has the highest average value per transaction except the category 'Loan'. As one of the main ways for credit card companies to make a profit is through the interchange fee per transaction charged from the merchant, we can see that travel is not only a category that can boost customer consumption but also a profitable category for the bank.
+
+![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/690f8fd0-f90d-4afc-8a31-b0ff744f61b7)
 
 Furthermore, the fact that only 85 existing customers have used the travel product for the bank suggests that there is a large untapped market for promoting travel credit cards. By understanding the needs and preferences of potential customers in this category and offering tailored benefits and rewards, we can attract new customers and drive revenue growth for the bank.
 
 ![image](https://github.com/Xiangzi-Chen/Retail-Banking-Credit-Card-Promotion-Project/assets/90531358/bdd651c5-a2ed-4483-a003-52189bf0d31e)
 
+Overall, based on our analysis of the transaction data, we eliminated the transaction category so that we could focus more on the transactions with more profitable merchant categories. Also, based on the total transaction value and average value per transaction, we believe that targeting the travel category for the new product is a promising strategy. It has the potential to not only increase customer consumption but also generate significant profit for the bank through interchange fees charged to merchants.
 
-
+In conclusion, our analysis of the transaction data allowed us to narrow down our focus to the most profitable merchant categories. By eliminating certain transaction categories and considering the total transaction value and average value per transaction, we have identified the travel category as a promising strategy for the new product. This category shows potential for increasing customer consumption and generating substantial profits through interchange fees charged to merchants. By targeting the travel category, we can align our product offering with customer preferences while maximizing profitability for the bank.
 
 ### Thoughts
 #### Task 1
