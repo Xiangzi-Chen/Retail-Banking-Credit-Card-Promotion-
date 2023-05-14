@@ -15,7 +15,7 @@ In today's highly competitive market, launching a new product can be a challengi
 
 ## Dataset
 
-There are 3 datasets related to the credit card transaction, which describes 
+There are 3 datasets related to the credit card transaction.
 
 BusinessCase_Custs.csv: This dataset contains information about the customers, including their gender, birth date, work activity, occupation industry, income, relationship status, habitation status, address, and school. This dataset can be used to identify different customer segments based on their demographics and lifestyle.
 
